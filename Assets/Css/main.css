@@ -1,0 +1,150 @@
+
+body{
+    background-color: rgba(127, 235, 247, 0.979);
+    margin: 0;
+}
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position:fixed;
+    top:0px;
+}
+footer{
+    background-color: black;
+    color:beige;
+    height: 10vh;
+    text-align: center;
+    font-size: 3vw;
+}
+a:hover{
+    color:aquamarine;
+    font-size: 3vw;
+}
+ol {
+    background: rgb(199, 8, 252);
+    padding: 30px;
+    width: 30%;
+}  
+ol li {
+    background: #edb0fa;
+    padding: 5px;
+    margin-left: 35px;
+ }
+ #topics{
+   display: flex;
+   justify-content: center;
+   font-size: 2.5vw;
+   font-family: 'Balsamiq Sans', cursive;
+ }
+
+#home-hero{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10vw;
+    background-image: url('https://cdn.pixabay.com/photo/2015/07/02/10/13/sky-828648_960_720.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color:aliceblue;
+}
+iframe{
+    width: 70%;
+    height: 40vw;
+}
+#home-hero p{
+    font-size: 3.5vw;
+}
+#home-hero h1{
+    font-size: 4vw;
+}
+#video{
+    margin: 2vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#prophets{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+#photo{
+    width: 50%;
+}
+.text-nav{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    margin-right:20px;
+    margin-left:20px;
+    font-family: 'Tourney', cursive;
+}
+.social{
+    width:3vw;
+}
+.text-nav img{
+    width: 4vw;
+    height: auto;
+}
+.pro img{
+    width: 15vw;
+    margin: 1vw;
+}
+.pro{
+    background-color:black;
+    width: 30vw;
+    text-align: center;
+    color:blanchedalmond;
+    font-size: 2vw;
+    font-family: 'Balsamiq Sans', cursive;
+}
+.family{
+    width: 35vw;
+}
+.fav{
+    text-align: center;
+    font-size: 3vw;
+    font-family: 'Balsamiq Sans', cursive;
+}
+@media screen and (max-width: 800px) {
+    body{
+        background-color: #91efcfa8;
+    }
+    footer{
+        height: 5vh;
+        font-size: 4vw;
+    }
+    #home-hero p{
+        font-size: 3vw;
+    }
+    #home-hero h1{
+        font-size: 2vw;
+    }
+    #video{
+        margin: 4vw;
+    }
+    #prophets{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pro{
+        width:90%;
+        margin: 4vw;
+        font-size: 5vw;
+    }
+    .pro img{
+        width: 70vw;
+        margin-bottom: 4vw;
+    }
+    .text-nav{
+        font-size: 4vw;
+    }
+  }
