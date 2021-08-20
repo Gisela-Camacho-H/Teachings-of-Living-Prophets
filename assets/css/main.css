@@ -40,7 +40,14 @@ ol li {
    font-size: 2.5vw;
    font-family: 'Balsamiq Sans', cursive;
  }
-
+#quotes{
+    background-color: black;
+    color:rgb(240, 245, 217);
+    height: 10vh;
+    text-align: center;
+    font-size:3vw;
+    margin: 2vw;
+}
 #home-hero{
     display:flex;
     align-items: center;
@@ -86,6 +93,22 @@ iframe{
     margin-right:20px;
     margin-left:20px;
     font-family: 'Tourney', cursive;
+}
+.quo{
+    background-color: rgba(210, 230, 248, 0.584);
+    font-size: 1vw;
+    text-align: center;
+    justify-content: center;
+    padding: 30px;
+    margin: 30px;
+}
+.link{
+    text-decoration: none;
+    color:black;
+}
+.link:hover{
+    color:rgb(246, 245, 248);
+    background-color: rgb(150, 1, 250);
 }
 .social{
     width:3vw;
